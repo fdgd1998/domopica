@@ -1,0 +1,38 @@
+﻿<ContentDialog x:ConnectionId='1'
+    x:Class="domopica.AlarmCountDown"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Intrusión detectada"
+    PrimaryButtonText="Rearmar alarma"
+                                                         >
+
+    <ContentDialog.Projection>
+        <PlaneProjection RotationY="0" RotationX="0" RotationZ="0"/>
+    </ContentDialog.Projection>
+    <ContentDialog.RenderTransform>
+        <CompositeTransform ScaleX="1" TranslateX="0" TranslateY="-130"/>
+    </ContentDialog.RenderTransform>
+    <Grid Height="155">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:ConnectionId='2' x:Name="activatedBy" 
+            Text="El sensor de la habitación ... ha detectado una intrusión. La alarma se activará en 10 segundos." 
+            HorizontalAlignment="Left" Margin="10,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="68" Grid.ColumnSpan="4"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,72,0,0" Width="250" Height="43" Grid.ColumnSpan="4"><Run Text="Introduce el PIN "/><Run Text="o acerca el llavero RFID al lector "/><Run Text="para rearmarla."/></TextBlock>
+        <PasswordBox x:ConnectionId='3' x:Name="passwd" HorizontalAlignment="Left" Margin="10,123,0,0" MaxLength="4" VerticalAlignment="Top" Width="250" InputScope="NumericPin" Grid.ColumnSpan="4">
+            <PasswordBox.Projection>
+                <PlaneProjection GlobalOffsetX="0"/>
+            </PasswordBox.Projection>
+        </PasswordBox>
+
+    </Grid>
+</ContentDialog>
+

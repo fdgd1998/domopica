@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="domopica.DevicePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1024" Height="546">
+
+    <Grid Width="1024" Height="546">
+        <TextBlock x:Name="pageText" x:FieldModifier="public" HorizontalAlignment="Left" Margin="20,14,0,0" FontSize="20" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="GoToFirstFloorPage" Content="Primera planta" Margin="899,0,0,0" VerticalAlignment="Top" Height="54" Width="115" Background="{x:Null}" Click="GoToPage_Click"/>
+        <Button x:Name="GoToGroundFloorPage" Content="Planta baja" Margin="784,0,0,0" VerticalAlignment="Top" Height="54" Width="115" Background="{x:Null}" Click="GoToPage_Click"/>
+        <Frame x:Name="deviceFrame" Height="490" Margin="0,54,0,2" Background="#00000000"/>
+    </Grid>
+</Page>

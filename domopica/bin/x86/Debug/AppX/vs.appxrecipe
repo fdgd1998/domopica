@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FRAN-DESKTOP</Machine>
+    <WindowsUser>fran_</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>1f08fad6-010b-460f-89e0-a252545f2d62</PackageIdentityName>
+    <PackageIdentityPublisher>CN=fran_</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\fran_\source\repos\domopica\domopica\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E082E296B6181B2E59126DF7D51C2BB00F18C3096CCB184DA9597DD2A0CEB5C6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1f08fad6-010b-460f-89e0-a252545f2d62_1.0.0.0_x86__7wy6bg7wk1d9g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1f08fad6-010b-460f-89e0-a252545f2d62_7wy6bg7wk1d9g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1f08fad6-010b-460f-89e0-a252545f2d62</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=fran_</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-07T17:39:56.170</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\domopica.exe">
+      <PackagePath>entrypoint\domopica.exe</PackagePath>
+      <Modified>2020-04-07T17:39:55.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T13:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-23T00:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\alarm-black.png">
+      <PackagePath>Assets\Icons\alarm-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\alarm.png">
+      <PackagePath>Assets\Icons\alarm.png</PackagePath>
+      <Modified>2020-04-04T20:04:08.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\cancel-dark.png">
+      <PackagePath>Assets\Icons\cancel-dark.png</PackagePath>
+      <Modified>2020-04-07T01:11:10.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\cancel.png">
+      <PackagePath>Assets\Icons\cancel.png</PackagePath>
+      <Modified>2020-04-05T03:18:15.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\clock-black.png">
+      <PackagePath>Assets\Icons\clock-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\clock.png">
+      <PackagePath>Assets\Icons\clock.png</PackagePath>
+      <Modified>2020-04-04T20:17:46.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\device1-black.png">
+      <PackagePath>Assets\Icons\device1-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\device1.png">
+      <PackagePath>Assets\Icons\device1.png</PackagePath>
+      <Modified>2020-04-05T02:52:56.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\door-black.png">
+      <PackagePath>Assets\Icons\door-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\door.png">
+      <PackagePath>Assets\Icons\door.png</PackagePath>
+      <Modified>2020-04-05T01:31:33.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\help-black.png">
+      <PackagePath>Assets\Icons\help-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\help.png">
+      <PackagePath>Assets\Icons\help.png</PackagePath>
+      <Modified>2020-04-05T00:34:25.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\home-black.png">
+      <PackagePath>Assets\Icons\home-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\home.png">
+      <PackagePath>Assets\Icons\home.png</PackagePath>
+      <Modified>2020-04-03T19:13:49.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\index.png">
+      <PackagePath>Assets\Icons\index.png</PackagePath>
+      <Modified>2020-04-05T01:37:14.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\info-black.png">
+      <PackagePath>Assets\Icons\info-black.png</PackagePath>
+      <Modified>2020-04-07T02:48:15.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\info.png">
+      <PackagePath>Assets\Icons\info.png</PackagePath>
+      <Modified>2020-04-05T01:35:37.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\light-black.png">
+      <PackagePath>Assets\Icons\light-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\light.png">
+      <PackagePath>Assets\Icons\light.png</PackagePath>
+      <Modified>2020-04-04T19:57:43.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\light1-black.png">
+      <PackagePath>Assets\Icons\light1-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\light1.png">
+      <PackagePath>Assets\Icons\light1.png</PackagePath>
+      <Modified>2020-04-05T01:31:33.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\lock.png">
+      <PackagePath>Assets\Icons\lock.png</PackagePath>
+      <Modified>2020-04-03T19:13:49.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\palette-black.png">
+      <PackagePath>Assets\Icons\palette-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\palette.png">
+      <PackagePath>Assets\Icons\palette.png</PackagePath>
+      <Modified>2020-04-04T19:49:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\settings-black.png">
+      <PackagePath>Assets\Icons\settings-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\settings.png">
+      <PackagePath>Assets\Icons\settings.png</PackagePath>
+      <Modified>2020-04-03T19:13:49.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\success-dark.png">
+      <PackagePath>Assets\Icons\success-dark.png</PackagePath>
+      <Modified>2020-04-07T01:11:10.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\success.png">
+      <PackagePath>Assets\Icons\success.png</PackagePath>
+      <Modified>2020-04-05T03:18:14.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\thermometer.png">
+      <PackagePath>Assets\Icons\thermometer.png</PackagePath>
+      <Modified>2020-04-04T20:23:23.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\thermometer-black.png">
+      <PackagePath>Assets\Icons\thermometer-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\ui-black.png">
+      <PackagePath>Assets\Icons\ui-black.png</PackagePath>
+      <Modified>2020-04-06T16:28:45.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\ui.png">
+      <PackagePath>Assets\Icons\ui.png</PackagePath>
+      <Modified>2020-04-05T01:31:33.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Icons\wallpaper.png">
+      <PackagePath>Assets\Icons\wallpaper.png</PackagePath>
+      <Modified>2020-04-04T22:40:43.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-03-19T00:23:08.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-19T00:23:08.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-19T00:23:08.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-19T00:23:08.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-19T00:23:08.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-19T00:23:08.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-19T00:23:08.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-1.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-1.jpg</PackagePath>
+      <Modified>2020-04-05T03:09:11.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-2.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-2.jpg</PackagePath>
+      <Modified>2020-04-05T03:06:34.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-3.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-3.jpg</PackagePath>
+      <Modified>2020-04-05T03:02:06.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-4.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-4.jpg</PackagePath>
+      <Modified>2020-04-05T03:10:36.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-5.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-5.jpg</PackagePath>
+      <Modified>2020-04-05T03:02:05.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-6.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-6.jpg</PackagePath>
+      <Modified>2020-04-06T17:03:40.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-7.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-7.jpg</PackagePath>
+      <Modified>2020-04-05T03:02:05.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Assets\Wallpapers\wallpaper-8.jpg">
+      <PackagePath>Assets\Wallpapers\wallpaper-8.jpg</PackagePath>
+      <Modified>2020-04-05T03:14:11.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-04-03T18:26:49.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\domopica.xr.xml">
+      <PackagePath>domopica.xr.xml</PackagePath>
+      <Modified>2020-04-07T17:25:47.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-04-07T17:39:55.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\AboutPage.xbf">
+      <PackagePath>AboutPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\AlarmPage.xbf">
+      <PackagePath>AlarmPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\AmbientLightPage.xbf">
+      <PackagePath>AmbientLightPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\ColorHelpPage.xbf">
+      <PackagePath>ColorHelpPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\ColorPage.xbf">
+      <PackagePath>ColorPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\ConfigPage.xbf">
+      <PackagePath>ConfigPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\DateTimePage.xbf">
+      <PackagePath>DateTimePage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\DevicePage.xbf">
+      <PackagePath>DevicePage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\DoorBlindHelpPage.xbf">
+      <PackagePath>DoorBlindHelpPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\HelpPage.xbf">
+      <PackagePath>HelpPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\HomePage.xbf">
+      <PackagePath>HomePage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\LightHelpPage.xbf">
+      <PackagePath>LightHelpPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\MainConfigPage.xbf">
+      <PackagePath>MainConfigPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\MainHelpPage.xbf">
+      <PackagePath>MainHelpPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\TemperatureHelpPage.xbf">
+      <PackagePath>TemperatureHelpPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\TemperaturePage.xbf">
+      <PackagePath>TemperaturePage.xbf</PackagePath>
+      <Modified>2020-04-07T17:39:55.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\UiHelpPage.xbf">
+      <PackagePath>UiHelpPage.xbf</PackagePath>
+      <Modified>2020-04-07T17:33:09.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-22T23:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-04-07T02:54:35.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fran_\source\repos\domopica\domopica\bin\x86\Debug\Core\domopica.exe">
+      <PackagePath>domopica.exe</PackagePath>
+      <Modified>2020-04-07T17:39:56.154</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{346571E9-04B9-4889-99C0-42CC268EC740}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>domopica</RootNamespace>
+    <AssemblyName>domopica</AssemblyName>
+    <DefaultLanguage>es-ES</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AutomatizationTask.cs" />
+    <Compile Include="ConfigPages\AutomatizationPage.xaml.cs">
+      <DependentUpon>AutomatizationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPages\CreateTaskPage.xaml.cs">
+      <DependentUpon>CreateTaskPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPages\ResetPage.xaml.cs">
+      <DependentUpon>ResetPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceLibraries\Curtain.cs" />
+    <Compile Include="Dialogs\AlarmCountDown.xaml.cs">
+      <DependentUpon>AlarmCountDown.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AlarmTriggered.xaml.cs">
+      <DependentUpon>AlarmTriggered.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePages\FirstFloorPage.xaml.cs">
+      <DependentUpon>FirstFloorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePages\GroundFloorPage.xaml.cs">
+      <DependentUpon>GroundFloorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Devices.cs" />
+    <Compile Include="DeviceLibraries\Door.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="ConfigPages\AlarmPage.xaml.cs">
+      <DependentUpon>AlarmPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPages\AmbientLightPage.xaml.cs">
+      <DependentUpon>AmbientLightPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPages\ColorPage.xaml.cs">
+      <DependentUpon>ColorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPage.xaml.cs">
+      <DependentUpon>ConfigPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPages\DateTimePage.xaml.cs">
+      <DependentUpon>DateTimePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage.xaml.cs">
+      <DependentUpon>DevicePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPages\MainConfigPage.xaml.cs">
+      <DependentUpon>MainConfigPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceLibraries\Light.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceLibraries\Mfrc522Lib.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConfigPages\TemperaturePage.xaml.cs">
+      <DependentUpon>TemperaturePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Floor\floor0-black.png" />
+    <Content Include="Assets\Floor\floor0-white.png" />
+    <Content Include="Assets\Floor\floor1-black.png" />
+    <Content Include="Assets\Floor\floor1-white.png" />
+    <Content Include="Assets\Icons\32px\curtain-close-black.png" />
+    <Content Include="Assets\Icons\32px\curtain-close-white.png" />
+    <Content Include="Assets\Icons\32px\curtain-open-black.png" />
+    <Content Include="Assets\Icons\32px\curtain-open-white.png" />
+    <Content Include="Assets\Icons\32px\garage-door-close-black.png" />
+    <Content Include="Assets\Icons\32px\garage-door-close-white.png" />
+    <Content Include="Assets\Icons\32px\garage-door-open-black.png" />
+    <Content Include="Assets\Icons\32px\garage-door-open-white.png" />
+    <Content Include="Assets\Icons\32px\light-off-black.png" />
+    <Content Include="Assets\Icons\32px\light-off-white.png" />
+    <Content Include="Assets\Icons\32px\light-on-black.png" />
+    <Content Include="Assets\Icons\32px\light-on-white.png" />
+    <Content Include="Assets\Icons\32px\task-planning-black.png" />
+    <Content Include="Assets\Icons\32px\task-planning-white.png" />
+    <Content Include="Assets\Icons\alarm-black.png" />
+    <Content Include="Assets\Icons\alarm.png" />
+    <Content Include="Assets\Icons\cancel-dark.png" />
+    <Content Include="Assets\Icons\cancel.png" />
+    <Content Include="Assets\Icons\clock-black.png" />
+    <Content Include="Assets\Icons\clock.png" />
+    <Content Include="Assets\Icons\device1-black.png" />
+    <Content Include="Assets\Icons\device1.png" />
+    <Content Include="Assets\Icons\home-black.png" />
+    <Content Include="Assets\Icons\home.png" />
+    <Content Include="Assets\Icons\index.png" />
+    <Content Include="Assets\Icons\light-black.png" />
+    <Content Include="Assets\Icons\light.png" />
+    <Content Include="Assets\Icons\light1-black.png" />
+    <Content Include="Assets\Icons\light1.png" />
+    <Content Include="Assets\Icons\palette-black.png" />
+    <Content Include="Assets\Icons\palette.png" />
+    <Content Include="Assets\Icons\reboot-white.png" />
+    <Content Include="Assets\Icons\reboot-black.png" />
+    <Content Include="Assets\Icons\settings-black.png" />
+    <Content Include="Assets\Icons\settings.png" />
+    <Content Include="Assets\Icons\success-dark.png" />
+    <Content Include="Assets\Icons\success.png" />
+    <Content Include="Assets\Icons\thermometer.png" />
+    <Content Include="Assets\Icons\thermometer-black.png" />
+    <Content Include="Assets\Icons\tick-black.png" />
+    <Content Include="Assets\Icons\tick.png" />
+    <Content Include="Assets\Wallpapers\wallpaper-1.jpg" />
+    <Content Include="Assets\Wallpapers\wallpaper-2.jpg" />
+    <Content Include="Assets\Wallpapers\wallpaper-3.jpg" />
+    <Content Include="Assets\Wallpapers\wallpaper-4.jpg" />
+    <Content Include="Assets\Wallpapers\wallpaper-5.jpg" />
+    <Content Include="Assets\Wallpapers\wallpaper-6.jpg" />
+    <Content Include="Assets\Wallpapers\wallpaper-7.jpg" />
+    <Content Include="Assets\Wallpapers\wallpaper-8.jpg" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="ConfigPages\AutomatizationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPages\CreateTaskPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPages\ResetPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\AlarmCountDown.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\AlarmTriggered.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DevicePages\FirstFloorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DevicePages\GroundFloorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPages\AlarmPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPages\AmbientLightPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPages\ColorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPages\DateTimePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DevicePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfigPages\MainConfigPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ConfigPages\TemperaturePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ABElectronics_Win10IOT_Libraries">
+      <Version>1.2.7048.20748</Version>
+    </PackageReference>
+    <PackageReference Include="Dht">
+      <Version>1.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.9</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="domopica.TemperaturePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="774" Height="546">
+
+    <Grid Width="774" Height="546">
+        <TextBlock HorizontalAlignment="Left" Text="Temperatura" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Top" Margin="30,30,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,68,0,0" Text="Frecuencia de actualización: " TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="14"/>
+        <ComboBox x:Name="frecuency" x:FieldModifier="public" Margin="30,92,0,0" Width="165" SelectionChanged="FrecuencyIntervalChanged_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,150,0,0" Text="Escala" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="0.294,-0.438"/>
+        <RadioButton Style="{StaticResource RadioBtnBlack}" x:Name="celsius" x:FieldModifier="public" GroupName="tempscale" Content="Celsius" Margin="30,174,0,0" VerticalAlignment="Top" IsChecked="True" Click="SetTempUnit_Click"/>
+        <RadioButton Style="{StaticResource RadioBtnBlack}" x:Name="farenheit" x:FieldModifier="public" GroupName="tempscale" Content="Farenheit" Margin="30,206,0,0" VerticalAlignment="Top" Click="SetTempUnit_Click"/>
+    </Grid>
+</Page>

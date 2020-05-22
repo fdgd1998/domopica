@@ -1,0 +1,158 @@
+﻿<Page
+    x:Class="domopica.ConfigPages.CreateTaskPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica.ConfigPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="774" Height="546">
+    <StackPanel Width="774" Height="546">
+        <ScrollViewer Width="774" Height="546">
+            <Grid>
+                <StackPanel Orientation="Horizontal" Width="131" Height="40" Margin="617,22,26,915">
+                    <Button Content="Cancelar" Margin="0,0,5,0" Click="BackBtn_Click"/>
+                    <Button Name="createBtn" Content="Crear" Click="Button_Click"/>
+                </StackPanel>
+                <TextBlock Name="actionType" HorizontalAlignment="Left" Text="Crear nueva tarea" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Top" Margin="30,30,0,0"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="127"><Run Text="Nombre de la "/><Run Text="regla:"/></TextBlock>
+                <TextBox Name="taskName" HorizontalAlignment="Left" InputScope="AlphanumericFullWidth" Margin="174,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
+                <TimePicker Name="startTime" Margin="30,126,0,0" VerticalAlignment="Top" ClockIdentifier="24HourClock" Header="Hora de inicio"/>
+                <TimePicker Name="endTime" Margin="296,126,0,0" VerticalAlignment="Top" ClockIdentifier="24HourClock" Header="Hora de finalización"/>
+                <Grid Name="startActions" Width="600" Height="350" Margin="30,197,144,430">
+                    <TextBlock HorizontalAlignment="Left" Text="Acciones al inicio:" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="127" FontWeight="Bold"/>
+                    <StackPanel Name="lightStartActions" Tag="Light" Height="305" Width="200" Margin="0,26,400,10">
+                        <TextBlock Text="Luces"/>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="living_room_light" Content="Salón"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="kitchen_light" Content="Cocina"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="entrance_light" Content="Entrada"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="stairs_light" Content="Escaleras"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="garage_light" Content="Garaje"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="terrace_light" Content="Terraza"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="bedroom_light" Content="Dormitorio"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Tag="lightStartActions" Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="bathroom_light" Content="Baño"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="curtainStartActions" Height="120" Width="240" Margin="254,26,106,184">
+                        <TextBlock Text="Persianas"/>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="living_room_curtain" Content="Salón"/>
+                            <ToggleSwitch OnContent="Abierta" OffContent="Cerrada" Header="" Width="112"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="bedroom_curtain" Content="Dormitorio"/>
+                            <ToggleSwitch Header="" Width="112" OnContent="Abierta" OffContent="Cerrada"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="bathroom_curtain" Content="Baño"/>
+                            <ToggleSwitch Header="" Width="112" OnContent="Abierta" OffContent="Cerrada"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="doorStartActions" Height="50" Width="240" Margin="254,171,106,109">
+                        <TextBlock Text="Puertas"/>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="garage_door" Content="Garaje"/>
+                            <ToggleSwitch Header="" Width="112" OnContent="Abierta" OffContent="Cerrada"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="alarmStartActions" Margin="254,264,84,49">
+                        <StackPanel Orientation="Horizontal" Height="34" Width="254">
+                            <CheckBox  Tag="alarm" Content="Alarma"/>
+                            <ToggleSwitch Header="" Width="132" OnContent="Activada" OffContent="Desactivada"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+                <Grid Name="endActions" Width="600" Height="350" Margin="30,547,144,80">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="174" FontWeight="Bold"><Run Text="Acciones a"/><Run Text=" la finalización"/><Run Text=":"/></TextBlock>
+                    <StackPanel Name="lightEndActions" Height="305" Width="200" Margin="0,26,400,10">
+                        <TextBlock Text="Luces"/>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="living_room_light" Content="Salón"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="kitchen_light" Content="Cocina"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="entrance_light" Content="Entrada"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="stairs_light" Content="Escaleras"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="garage_light" Content="Garaje"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="terrace_light" Content="Terraza"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="bedroom_light" Content="Dormitorio"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="202">
+                            <CheckBox Tag="bathroom_light" Content="Baño"/>
+                            <ToggleSwitch Header="" Width="84"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="curtainEndActions" Height="120" Width="240" Margin="254,26,106,184">
+                        <TextBlock Text="Persianas"/>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="living_room_curtain" Content="Salón"/>
+                            <ToggleSwitch OnContent="Abierta" OffContent="Cerrada" Header="" Width="112"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="bedroom_curtain" Content="Dormitorio"/>
+                            <ToggleSwitch Header="" Width="112" OnContent="Abierta" OffContent="Cerrada"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="bathroom_curtain" Content="Baño"/>
+                            <ToggleSwitch Header="" Width="112" OnContent="Abierta" OffContent="Cerrada"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="doorEndActions" Height="50" Width="240" Margin="254,171,106,109">
+                        <TextBlock Text="Puertas"/>
+                        <StackPanel Orientation="Horizontal" Height="34" Width="234">
+                            <CheckBox Tag="garage_door" Content="Garaje"/>
+                            <ToggleSwitch Header="" Width="112" OnContent="Abierta" OffContent="Cerrada"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Name="alarmEndActions" Margin="254,264,84,49">
+                        <StackPanel Orientation="Horizontal" Height="34" Width="254">
+                            <CheckBox Tag="alarm" Content="Alarma"/>
+                            <ToggleSwitch Header="" Width="132" OnContent="Activada" OffContent="Desactivada"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+
+            </Grid>
+        </ScrollViewer>
+    </StackPanel>
+</Page>

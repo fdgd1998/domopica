@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="domopica.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="600">
+
+    <Grid Height="600" Width="1024" RequestedTheme="Dark">
+        <Image x:ConnectionId='2' x:FieldModifier="public" x:Name="wallpaper" HorizontalAlignment="Center" Width="1024" Height="600" VerticalAlignment="Center"/>
+        <Grid x:ConnectionId='3' x:FieldModifier="public" x:Name="navbar" Width="1024" Height="54" Margin="0,0,0,546">
+            <TextBlock x:ConnectionId='5' x:Name="PageName" Text="" FontSize="22" Height="34" Margin="467,10,388,10" TextAlignment="Center"/>
+            <Button x:ConnectionId='6' Style="{StaticResource GoToConfigPageBtn}" x:Name="GoToConfigPage" x:FieldModifier="public" Margin="956,0,0,0" Height="54" Width="54"                       >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/Icons/settings.png">
+                        <ImageBrush.RelativeTransform>
+                            <CompositeTransform CenterY="0.5" CenterX="0.5" ScaleX="0.6" ScaleY="0.6"/>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='7' Style="{StaticResource GoToDevicesPageBtn}" x:Name="GoToDevicePage" x:FieldModifier="public" Margin="902,0,0,0" Height="54" Width="54"                       >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/Icons/devices.png">
+                        <ImageBrush.RelativeTransform>
+                            <CompositeTransform CenterY="0.5" CenterX="0.5" ScaleX="0.6" ScaleY="0.6"/>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='8' Style="{StaticResource GoToHomePageBtn}" x:Name="GoToHomePage" x:FieldModifier="public" Content="" Margin="848,0,0,0" Height="54" Width="54"                        UseSystemFocusVisuals="True">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/Icons/home.png">
+                        <ImageBrush.RelativeTransform>
+                            <CompositeTransform CenterY="0.5" CenterX="0.5" ScaleX="0.6" ScaleY="0.6"/>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+            <TextBlock x:ConnectionId='9' x:Name="time" x:FieldModifier="public" HorizontalAlignment="Left" Text="-----, --/--/---- --:--:--" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="22" Width="377" TextAlignment="Left" Margin="20,0,0,0"/>
+        </Grid>
+        <Frame x:ConnectionId='4' Width="1024" Height="546" x:Name="MainFrame" Margin="-1,54,-1,0" FocusVisualPrimaryBrush="#00000000"/>
+    </Grid>
+</Page>
+

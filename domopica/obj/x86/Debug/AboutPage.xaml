@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="domopica.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="774" Height="546">
+
+    <Grid Width="774" Height="546">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Text="Acerca de" FontSize="20" Margin="30,10,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="142" Width="358"><Run Text="2020"/><Run Text="."/><Run Text=" Proyecto DomoPIca"/><Run Text="."/><LineBreak/><LineBreak/><Run Text="Francisco Gálvez"/><LineBreak/><Run Text="fran_gd_1998@outlook.es"/><LineBreak/><Run/><LineBreak/><Run Text="C.F.G.S. Administracion de Sistemas Informáticos en Red."/><LineBreak/><Run Text="I.E.S. Los Manantiales."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="30,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="Información de"/><Run Text="l"/><Run Text=" software"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="30,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="358"><Run Text="S.O.:"/><Run Text=" "/><Run Text="Windows 10 IoT Core."/><LineBreak/><Run Text="Versión: 1809"/><LineBreak/><Run Text="Compilación: 17763.105"/><LineBreak/><Run/></TextBlock>
+        <Grid Width="774" Height="546">
+            <TextBlock HorizontalAlignment="Left" Margin="30,337,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" ><Run Text="Información de"/><Run Text="l"/><Run Text=" "/><Run Text="harware"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="30,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="114" Width="358"><Run Text="Raspberry Pi 3 modelo B."/><LineBreak/><Run/><LineBreak/><Run Text="SoC: Broadcom BCM2837."/><LineBreak/><Run Text="Arquitectura: ARM."/><LineBreak/><Run Text="RAM: 1 GB."/><LineBreak/><Run Text="Almacenamiento: 32 GB."/></TextBlock>
+        </Grid>
+    </Grid>
+</Page>
+

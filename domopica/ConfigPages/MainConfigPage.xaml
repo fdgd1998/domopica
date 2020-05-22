@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="domopica.MainConfigPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="776" Height="546">
+
+    <Grid Width="774" Height="546">
+        <TextBlock HorizontalAlignment="Left" Margin="184,235,0,0" Text="Configuración" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="412" TextAlignment="Center" FontSize="28" RenderTransformOrigin="0.475,-0.093"/>
+        <TextBlock HorizontalAlignment="Left" Margin="197,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="386" FontSize="18" TextAlignment="Center"><Run Text="Personaliza la "/><Run Text="in"/><Run Text="terfa"/><Run Text="z y configura los di"/><Run Text="s"/><Run Text="positivos de tu casa."/></TextBlock>
+        <Image x:Name="mainicon" HorizontalAlignment="Center" Height="100" Margin="0,130,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/Icons/settings.png"/>
+    </Grid>
+</Page>

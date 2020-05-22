@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="domopica.DateTimePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="774" Height="546">
+
+    <Grid Width="774" Height="546">
+        <CheckBox x:ConnectionId='2' x:Name="weekdaychkbx" Content="Mostrar día de la semana" Margin="31,71,0,0" VerticalAlignment="Top"                             Style="{StaticResource CheckBoxTransparent}"/>
+        <CheckBox x:ConnectionId='3' x:Name="yearchkbx" Content="Mostrar año completo" Margin="30,108,0,0" VerticalAlignment="Top"                             Style="{StaticResource CheckBoxTransparent}"/>
+        <CheckBox x:ConnectionId='4' x:Name="secondschkbx" Content="Mostrar segundos" Margin="30,145,0,0" VerticalAlignment="Top"                             Style="{StaticResource CheckBoxTransparent}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,30,0,0" Text="Fecha y hora" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,212,0,0" Text="Formato" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Normal" FontSize="14"/>
+        <ComboBox x:ConnectionId='5' x:Name="datetimeformat" Margin="30,241,0,0" Width="285" AllowDrop="True"                                                   />
+
+    </Grid>
+</Page>
+

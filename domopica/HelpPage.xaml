@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="domopica.HelpPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="546">
+
+    <Grid HorizontalAlignment="Left">
+        <StackPanel x:FieldModifier="public" x:Name="sidebar" Width="250" Height="546" HorizontalAlignment="Left">
+            <Button Name="GoToAboutPage" Width="250" Height="56" Background="{x:Null}" Click="GoToPage_Click">
+                <Grid Margin="-125,-28,-125,-28">
+                    <TextBlock Margin="53,17,27,11" FontSize="18" Text="Acerca de"/>
+                    <Image x:Name="infoicon" Width="25" Height="25" Source="/Assets/Icons/info.png" Margin="17,14,208,14" RenderTransformOrigin="0.573,0.547"/>
+                </Grid>
+            </Button>
+            <TextBlock Margin="20,30,0,10" FontWeight="Bold"><Run Text="Personaliza"/><Run Text="ción"/></TextBlock>
+            <Button Name="GoToColorHelpPage" Width="250" Height="56" Background="{x:Null}" Click="GoToPage_Click">
+                <Grid Margin="-125,-28,-125,-28">
+                    <TextBlock Margin="53,17,27,11" FontSize="18" Text="Temas"/>
+                    <Image x:Name="paletteicon" Width="25" Height="25" Source="/Assets/Icons/palette.png" Margin="17,14,208,14" RenderTransformOrigin="0.573,0.547"/>
+                </Grid>
+            </Button>
+            <Button Name="GoToUiHelpPage" Width="250" Height="56" Background="{x:Null}" Click="GoToPage_Click">
+                <Grid Margin="-125,-28,-125,-28">
+                    <TextBlock Margin="53,17,27,11" FontSize="18" Text="Interfaz"/>
+                    <Image x:Name="uiicon" Width="25" Height="25" Source="/Assets/Icons/ui.png" Margin="17,14,208,14" RenderTransformOrigin="0.573,0.547"/>
+                </Grid>
+            </Button>
+            <TextBlock Text="Dispositivos" Margin="20,30,0,10" FontWeight="Bold"></TextBlock>
+            <Button Name="GoToLightHelpPage" Width="250" Height="56" Background="{x:Null}" Click="GoToPage_Click">
+                <Grid Margin="-125,-28,-125,-28">
+                    <TextBlock Margin="53,17,27,11" FontSize="18" Text="Luces"/>
+                    <Image x:Name="lighticon" Width="25" Height="25" Source="/Assets/Icons/light1.png" Margin="17,14,208,14" RenderTransformOrigin="0.573,0.547"/>
+                </Grid>
+            </Button>
+            <Button Name="GoToDoorBlindHelpPage" Width="250" Height="56" Background="{x:Null}" Click="GoToPage_Click">
+                <Grid Margin="-125,-28,-125,-28">
+                    <TextBlock Margin="53,17,27,11" FontSize="18" Text="Puertas y persianas"/>
+                    <Image x:Name="dooricon" Width="25" Height="25" Source="/Assets/Icons/door.png" Margin="17,14,208,14" RenderTransformOrigin="0.573,0.547"/>
+                </Grid>
+            </Button>
+            <Button Name="GoToTemperatureHelpPage" Width="250" Height="56" Background="{x:Null}" Click="GoToPage_Click">
+                <Grid Margin="-125,-28,-125,-28">
+                    <TextBlock Margin="53,17,27,11" FontSize="18" Text="Temperatura "/>
+                    <Image x:Name="thermometericon" Width="25" Height="25" Source="/Assets/Icons/thermometer.png" Margin="17,14,208,14" RenderTransformOrigin="0.573,0.547"/>
+                </Grid>
+            </Button>
+        </StackPanel>
+        <Frame Width="774" Height="546" x:Name="HelpFrame" Margin="250,0,0,0"/>
+    </Grid>
+</Page>

@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="domopica.AmbientLightPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:domopica"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="774" Height="546">
+
+    <Grid Width="774" Height="546">
+        <TextBlock HorizontalAlignment="Left" Text="Luz ambiente" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Top" Margin="30,30,0,0"/>
+        <ToggleSwitch x:Name="lightSensor" Header="Activar sensor" OffContent="Desactivado" OnContent="Activado" Margin="30,69,0,0" VerticalAlignment="Top" Toggled="LightSensor_Toggled"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="45"><Run Text="Selecciona los dis"/><Run Text="positivos"/><Run Text=" que se activarán"/><Run Text=" "/><LineBreak/><Run Text="y desactivarán"/><Run Text=" automaticamente"/><Run Text=":"/></TextBlock>
+        <StackPanel x:Name="gridButtons" HorizontalAlignment="Left" Height="270" Margin="30,189,0,0" VerticalAlignment="Top" Width="120">
+            <CheckBox x:Name="living_room_light" Content="Luz salón" Margin="0,0,0,2"/>
+            <CheckBox x:Name="bedroom_light" Content="Luz dormitorio" Margin="0,0,0,2"/>
+            <CheckBox x:Name="bathroom_light" Content="Luz baño" Margin="0,0,0,2"/>
+            <CheckBox x:Name="garage_light" Content="Luz garaje" Margin="0,0,0,2"/>
+            <CheckBox x:Name="stairs_light" Content="Luz escaleras" Margin="0,0,0,2"/>
+            <CheckBox x:Name="entrance_light" Content="Luz entrada" Margin="0,0,0,2"/>
+            <CheckBox x:Name="kitchen_light" Content="Luz cocina" Margin="0,0,0,2"/>
+            <CheckBox x:Name="terrace_light" Content="Luz terraza" Margin="0,0,0,2"/>
+        </StackPanel>
+        <Button x:Name="saveDevices" Content="Guardar cambios" Margin="30,466,0,0" VerticalAlignment="Top" Click="SaveDevices_Click"/>
+        <Image x:Name="changeSuccess"  HorizontalAlignment="Left" Height="25" Width="25" Margin="163,470,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,0.4"/>
+    </Grid>
+</Page>
